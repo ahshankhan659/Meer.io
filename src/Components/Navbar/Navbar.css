@@ -1,0 +1,88 @@
+.upper-navbar {
+    background-color: #2aaac7;
+    padding: 0.4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-navbar .u-nav-l > p {
+    word-spacing: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-navbar .u-nav-r {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.upper-navbar .u-nav-r1 {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.upper-navbar .u-nav-r1:hover {
+    color: black; /* Text becomes black on hover */
+}
+
+.upper-navbar .u-nav-r1 span > i {
+    padding-right: 5px;
+    color: black; /* Initial icon color is black */
+    transition: all 0.3s ease;
+}
+
+.upper-navbar .u-nav-r1:hover span > i {
+    color: white; /* Icon becomes white on hover */
+}
+/* --------Lower Navbar---------- */
+.l-nav-l img{
+    background-color: white;
+}
+.lower-navbar{
+    padding: 0.4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lower-navbar .l-nav-r ul{
+    display: flex;
+    gap: 2.4rem;
+}
+.lower-navbar .l-nav-r ul>li{
+    list-style: none;
+    position: relative;
+}
+.lower-navbar .l-nav-r ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.lower-navbar .l-nav-r ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50px;
+    width: 0%;
+    height: 2px;
+    background-color: #2aaac7;
+    display: block;
+    transition: all 0.5s ease;
+
+}
+.lower-navbar .l-nav-r ul li a:hover::after{
+    width: 100%;
+}
+.lower-navbar .l-nav-r ul li i{
+    font-size: 6px;
+    margin: 1px;
+    color: #003a58;
+    transition: all 0.5s ease;
+}
+.lower-navbar .l-nav-r ul li:hover i{
+    color: #2aaac7;
+}

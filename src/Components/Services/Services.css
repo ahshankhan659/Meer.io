@@ -1,0 +1,97 @@
+.services-head{
+    text-align: center;
+    padding: 3rem 0 2rem;
+}
+.services-head h1{
+    margin: 0;
+    color: #003a58;
+    font-size: 50px;
+    font-weight: bold;
+}
+.services-head .light{
+    opacity: 0.1;
+    margin: 0 0;
+    font-size: 90px;
+    font-weight: bold;
+}
+.services-head .bold{
+    margin-top: -60px;
+    font-weight: bold;
+    color: black;
+    font-size: 55px;
+}
+img{
+    background-color: black;
+}
+/* span{
+    display: block;
+} */
+.services-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0 5rem;
+    gap: 1rem;
+}
+.cards:nth-child(2){
+    background-color: #003a58;
+}
+.services{
+    transition: all 1.5s ease;
+}
+.services:hover{
+    transform: scale(1.1);
+}
+.cards{
+    width: 360px;
+    height: 420px;
+    background-color: #2aaac7;
+}
+.cards>img{
+    padding: 15px;
+    color: white;
+    background-color: #003a58;
+    
+}
+.card-detail{
+    padding: 1.4rem;
+}
+.card-detail p{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.card-detail span{
+    display: block;
+    color: white;
+    
+    font-size: 16px;
+}
+.center{
+    text-align: center;
+    padding: 4rem 0 2rem;
+}
+.center hr{
+    width: 130px;
+    height: 3px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 30px;
+    background-color: #003a58;
+}
+.card-detail button{
+    display: block;
+    margin: 0 auto;
+    padding: 13px 25px;
+    background-color: #003a58;
+    border: 2px solid #003a58;
+    color: white;
+    font-weight: bold;
+    transition: all 0.8s ease-in-out;
+}
+.card-detail button:hover{
+    background-color: black;
+    border: 2px solid black;
+
+}

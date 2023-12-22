@@ -1,0 +1,17 @@
+.chart{
+    padding: 3rem;
+}
+.chart-head{
+    text-align: center;
+}
+.chart-head h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.chart-img img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 3rem;
+    background-color: white;
+}

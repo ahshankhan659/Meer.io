@@ -1,0 +1,49 @@
+.about-head{
+    text-align: center;
+    padding: 2rem 0;
+}
+.about-head h1{
+    margin: 0;
+    color: #003a58;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-head .light{
+    opacity: 0.1;
+    margin: 0 0;
+    font-size: 100px;
+    font-weight: bold;
+}
+.about-head .bold{
+    margin-top: -60px;
+    font-weight: bold;
+    font-size: 55px;
+}
+.about{
+    padding: 1rem 5rem 1rem;
+    display: flex;
+    gap: 1rem ;
+    align-items: flex-end;
+}
+.about-r{
+    outline: 3px solid #2aaac7 ;
+    padding: 30px;
+    margin-bottom: -30px;
+    margin-left: -40px ;
+}
+.about-l img{
+    width: 420px;
+    height: 520px;
+    image-rendering: pixelated;
+}
+.about-content h2{
+    color: #003a58;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+.about-content p{
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 28px;
+}
