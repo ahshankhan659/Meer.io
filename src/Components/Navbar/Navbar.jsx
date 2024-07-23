@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../Components/images/logo.png"
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 function Navbar() {
@@ -24,16 +25,17 @@ function Navbar() {
             <div className="lower-navbar">
                 <div className="l-nav-l">
                     <img src={logo} alt="" />
+                
                 </div>
                 <div className="l-nav-r">
                     <ul>
-                        <li><a href="">HOME</a><i class="fa-solid fa-square"></i></li>
-                        <li><a href="">ABOUT US</a><i class="fa-solid fa-square"></i></li>
-                        <li><a href="">SERVICES</a><i class="fa-solid fa-square"></i></li>
-                        <li><a href="">PROJECTS</a><i class="fa-solid fa-square"></i></li>
-                        <li><a href="">PAGES</a><i class="fa-solid fa-square"></i></li>
-                        <li><a href="">LATEST NEWS</a><i class="fa-solid fa-square"></i></li>
-                        <li><a href="">CONTACT US</a><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/">HOME</Link><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/about">ABOUT US</Link><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/service">SERVICES</Link><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/project">PROJECTS</Link><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/page">PAGES</Link><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/testimonial">LATEST NEWS</Link><i class="fa-solid fa-square"></i></li>
+                        <li><Link to="/abc">CONTACT US</Link><i class="fa-solid fa-square"></i></li>
                     </ul>
                 </div>
             </div>

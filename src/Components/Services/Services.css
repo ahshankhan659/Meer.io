@@ -34,9 +34,6 @@ img{
     padding: 0 5rem;
     gap: 1rem;
 }
-.cards:nth-child(2){
-    background-color: #003a58;
-}
 .services{
     transition: all 1.5s ease;
 }
@@ -47,6 +44,9 @@ img{
     width: 360px;
     height: 420px;
     background-color: #2aaac7;
+}
+.cards:nth-child(2n){
+    background-color: #003a58;
 }
 .cards>img{
     padding: 15px;

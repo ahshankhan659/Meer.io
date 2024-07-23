@@ -1,6 +1,7 @@
 .about-head{
     text-align: center;
     padding: 2rem 0;
+    
 }
 .about-head h1{
     margin: 0;
@@ -15,7 +16,7 @@
     font-weight: bold;
 }
 .about-head .bold{
-    margin-top: -60px;
+    margin-top: -55px;
     font-weight: bold;
     font-size: 55px;
 }
@@ -24,11 +25,12 @@
     display: flex;
     gap: 1rem ;
     align-items: flex-end;
+    margin-bottom: 1rem;
 }
 .about-r{
     outline: 3px solid #2aaac7 ;
     padding: 30px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     margin-left: -40px ;
 }
 .about-l img{

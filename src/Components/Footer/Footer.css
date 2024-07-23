@@ -1,0 +1,90 @@
+.footer-up{
+    display: flex;
+    gap: 4rem;
+    background-color: #2aaac7;
+
+}
+.footer-img .ml{
+    margin-left: 5rem;
+    width: 40%;
+    padding-top: 6rem;
+}
+.footer-img .mr{
+    padding-top: 5px;
+    width: 35%;
+}
+.footer-img img{
+    background-color: #2aaac7;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.footer-nav{
+    padding: 6rem 0;
+}
+.footer-nav h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1.3rem;
+}
+.footer-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-nav ul li{
+    list-style: none;
+    padding: 4px 0;
+    text-align: left;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: ease 0.4s;
+}
+.footer-nav ul li a:hover{
+    color: black;
+}
+.footer-contact{
+    padding: 6rem 0;
+}
+.footer-contact h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1.3rem;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 8rem;
+}
+.footer-contact .footer-Citem p a,
+.footer-contact .footer-Citem h3
+{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+.footer-contact .footer-Citem h3
+{
+    font-size: 20px;
+}
+.footer-contact .footer-Citem p{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+/* ----------footer down------- */
+.footer-down{
+    text-align: center;
+    padding: 1.2rem;
+    background-color: #003a58;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
